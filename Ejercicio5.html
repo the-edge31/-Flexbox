@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio 5</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<style media="screen" type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Raleway', sans-serif;
+
+		}
+		.flex-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+
+		}
+
+		.flex-container > div {
+			width: 300px;
+			margin: 10px;
+		}
+
+		.columna {
+			display: flex;
+			margin-top: 7px;
+			margin-bottom: 7px;
+			justify-content: center;
+			align-items: center;
+
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="flex-container">
+		<div><img src="assets/imagenes/natural.jpg" alt="img" height="200" width="300"></div>
+		<div><img src="assets/imagenes/lindo.jpg" alt="img" height="200" width="300"></div>
+		<div><img src="assets/imagenes/wedding.jpg" alt="img" height="200" width="300"></div>
+		<div><img src="assets/imagenes/lindo.jpg" alt="img" height="200" width="300"></div>
+	</div>
+	<div class="columna">
+		<img src="assets/imagenes/mist.jpg" height="300" width="1265" alt="img">
+	</div>
+	<div class="flex-container">
+		<div><img src="assets/imagenes/wedding.jpg" alt="img" height="200" width="300"></div>
+		<div><img src="assets/imagenes/mar.jpg" alt="img" height="500" width="300"></div>
+		<div style="align-self: top">
+			<div><img src="assets/imagenes/natural.jpg" alt="img" height="200" width="300"></div>
+		</div>
+		<div><div><img src="assets/imagenes/mar.jpg" alt="img" height="500" width="300"></div></div>
+	</div>
+</body>
+</html>
+
+
+
+
